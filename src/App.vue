@@ -118,6 +118,9 @@ body {
 .app {
   min-height: 100vh;
   background-color: #3a4663;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &.theme-two {
     background: #e6e6e6;
   }
@@ -133,6 +136,7 @@ body {
 
 button {
   font-weight: bold;
+  cursor: pointer;
 }
 
 button {
