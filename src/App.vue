@@ -157,6 +157,7 @@ button {
   color: white;
   padding: 32px 0;
   transition: all 0.3s;
+  padding-top: 0;
   h1 {
     margin: 0;
   }
