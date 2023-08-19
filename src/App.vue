@@ -13,7 +13,7 @@
                 <span>3</span>
               </div>
               <div class="toggle-input" @click="toggleTheme">
-                <div class="toggle-ball"></div>
+                <button class="toggle-ball"></button>
               </div>
             </div>
           </div>
@@ -232,16 +232,28 @@ button {
       width: 101px;
     }
 
+    &:active {
+      background: #fffffe;
+    }
+
     .theme-two & {
       background: #e5e4e1;
       box-shadow: 0px -4px 0px 0px #a79e91 inset;
       color: #36362c;
+
+      &:active {
+        background: #fff;
+      }
     }
 
     .theme-three & {
       background: #331c4d;
       box-shadow: 0px -4px 0px 0px #881c9e inset;
       color: #ffe53d;
+
+      &:active {
+        background: #6c34ac;
+      }
     }
   }
 }
@@ -253,16 +265,26 @@ button.reset {
   background: #647198;
   box-shadow: 0px -4px 0px 0px #414e73 inset;
   transition: all 0.3s;
+
+  &:active {
+    background: #a2b2e1;
+  }
   .theme-two & {
     background: #d2cdcd;
     background: #378187;
     box-shadow: 0px -4px 0px 0px #1b6066 inset;
     color: #fff;
+    &:active {
+      background: #62b5bc;
+    }
   }
   .theme-three & {
     background: #56077c;
     box-shadow: 0px -4px 0px 0px #be15f4 inset;
     color: white;
+    &:active {
+      background: #8631af;
+    }
   }
 }
 .equals {
@@ -271,15 +293,27 @@ button.reset {
   box-shadow: 0px -4px 0px 0px #93261a inset;
   transition: all 0.3s;
 
+  &:active {
+    background: #f96b5b;
+  }
+
   .theme-two & {
     background: #c85402;
     box-shadow: 0px -4px 0px 0px #873901 inset;
+
+    &:active {
+      background: #ff8a38;
+    }
   }
   .theme-three & {
     color: #1a2327;
 
     background: #00ded0;
     box-shadow: 0px -4px 0px 0px #6cf9f1 inset;
+
+    &:active {
+      background: #93fff8;
+    }
   }
 }
 
@@ -337,14 +371,24 @@ button.reset {
     left: 5px;
     transition: all 0.3s;
 
+    &:active {
+      background: #f96b5b;
+    }
+
     .theme-two & {
       background: #c85402;
       left: 28px;
+      &:active {
+        background: #ff8a38;
+      }
     }
 
     .theme-three & {
       background: #00ded0;
       left: 50px;
+      &:active {
+        background: #93fff8;
+      }
     }
   }
 
