@@ -33,7 +33,7 @@
             <button @click="append(2)">2</button>
             <button @click="append(3)">3</button>
             <button @click="append('-')">-</button>
-            <button @click="append(',')">,</button>
+            <button @click="append('.')">.</button>
             <button @click="append(0)">0</button>
             <button @click="append('/')">/</button>
             <button @click="append('*')">x</button>
